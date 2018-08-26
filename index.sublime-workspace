@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"high",
+				"highlightColor"
+			],
+			[
+				"font",
+				"fontSize"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"video",
+				"video"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"gfx",
+				"gfx1"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"content",
+				"content"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"j",
+				"justify-content\tproperty"
+			],
+			[
+				"grid-col",
+				"grid-column-gap\tproperty"
+			],
+			[
+				"grid-",
+				"grid-row-gap\tproperty"
+			],
+			[
+				"grid-template",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"conte",
+				"content2"
+			],
+			[
+				"grid-templ",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"grid-templa",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-temp",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"Qder",
+				"eq:Qderiv"
+			],
+			[
+				"enum",
+				"enumerate"
+			],
+			[
+				"taylor",
+				"eq:taylorobs"
+			],
+			[
+				"garch",
+				"eq:garch_eps2"
+			],
+			[
+				"fon",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/css/theme/source/mnt.scss",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/index.html",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/css/theme/source/serif.scss",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/lib/media/timeseries.svg",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/css/theme/README.md",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/css/reveal.scss",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/css/theme/template/theme.scss",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/css/theme/template/settings.scss",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/css/theme/mnt.css",
+		"/C/localtexmf/tex/latex/beamer/Frederiksberg/subtheme/KUcommon.sty",
+		"/C/Users/lsw807/Desktop/notes.txt",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/css/theme/source/white.scss",
+		"/C/localtexmf/tex/latex/beamer/Frederiksberg/subtheme/beamerthemeKUsetup.sty",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/css/theme/template/mixins.scss",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/js/reveal.js",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/test media9.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.06.08 DIKU/Video.tex",
+		"/C/Users/lsw807/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Program Files/MiKTeX 2.9/tex/latex/media9/media9.sty",
+		"/C/xampp/htdocs/wptest/p.txt",
+		"/C/Users/lsw807/Dropbox/Coding/Html/Website/Play/css/main.css",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exam/04 Info About the Exam/Info About the Exam.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 5/05 General Feedback/General Feedback on Assignment 5.tex",
+		"/C/Users/lsw807/Dropbox/Coding/Html/Website/Play/css/presentation.css",
+		"/C/Users/lsw807/Dropbox/Coding/Html/Website/Play/presentation.html",
+		"/C/Users/lsw807/Dropbox/Coding/Html/Website/Play/index.html",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 5/02 Assignment/Assignment 5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 5/01 Theoretical Exercises/Theoretical Exercises 5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 5/01 Theoretical Exercises/Theoretical Exercises 5 - Solution Guide.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 4/02 Assignment/Assignment 4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exam/01 The Exam/Exam2018S.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exam/Exam2018S.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 3/02 Assignment/Assignment 3 - Interest Rate Pass Through.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 2/02 Assignment/Assignment 2.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exam/Exam2017F.tex",
+		"/C/Users/lsw807/Dropbox/Coding/Html/Udacity - Responsive Web Design/Project Part 1/Start/index.html",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 5/Problem Set 5.tex",
+		"/C/Users/lsw807/Dropbox/Coding/Html/Udacity - Responsive Web Design/Project Part 1/Start/main.css",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 5/01 Theoretical Exercises/Exercise 5.3 Solution Guide.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Lectures/05 GMM/05 GMM.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Practical/Applications/2017 KU/02 CV/CV.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 5/Exercise 5.2 Tutorial/Exercise 5.2 Tutorial Q5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 5/Assignment 5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 5/Exercise 5.2 Tutorial/Exercise 5.2 Tutorial Q4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 5/Exercise 5.2 Tutorial/Exercise 5.2 Tutorial Q3.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 5/Exercise 5.2 Tutorial/Exercise 5.2 Tutorial Q2.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 4/05 General Feedback/General Feedback on Assignment 4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 5/02 Empirical Exercises/Empirical Exercises 5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 5/Exercise 5.2 Tutorial/Exercise 5.2 Tutorial Q1.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 5/Exercise 5.1 Solution Guide/Exercise 5.1 Solution Guide.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/03 Presentations/2018.04.23 Make a Difference/2018.04.23 Make a Difference.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Theoretical Exercises 4/Theoretical Exercises 4 - Solution Guide.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 5/Theoretical Exercises 5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Lectures/04 ARCH/04 ARCH.tex",
+		"/C/xampp/htdocs/d3/index.html",
+		"/C/xampp/htdocs/d3/js/play.js",
+		"/C/Users/lsw807/Dropbox/Coding/D3/Play/DashingD3 Play/project2.html",
+		"/C/Users/lsw807/Dropbox/Coding/D3/Play/DashingD3 Play/project1.html",
+		"/C/Users/lsw807/Dropbox/Coding/D3/Play/DashingD3 Play/index.html",
+		"/C/Users/lsw807/Dropbox/Econ/Projects/01 IKE/02 Papers/2017 QEH/2017.06.21 QEH Draft Roman/QEH Draft June 21 2017.tex",
+		"/C/Users/lsw807/Downloads/QEH Draft 06_21_2017 rf.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Empirical Exercises 4/01 Empirical Exercise/Empirical Exercises 4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Empirical Exercises 4/03 Tutorial/Exercise 4.2 Tutorial/Exercise 4.2 Tutorial Q6.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Empirical Exercises 4/03 Tutorial/Exercise 4.2 Tutorial/Exercise 4.2 Tutorial Q7.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Empirical Exercises 4/03 Tutorial/Exercise 4.2 Tutorial/Exercise 4.2 Tutorial Q5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Empirical Exercises 4/03 Tutorial/Exercise 4.2 Tutorial/Exercise 4.2 Tutorial Q4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Empirical Exercises 4/03 Tutorial/Exercise 4.2 Tutorial/Exercise 4.2 Tutorial Q3.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Empirical Exercises 4/03 Tutorial/Exercise 4.2 Tutorial/Exercise 4.2 Tutorial Q2.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Empirical Exercises 4/03 Tutorial/Exercise 4.2 Tutorial/Exercise 4.2 Tutorial Q1.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 3/05 General Feedback/General Feedback on Assignment 3.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Empirical Exercises 4/Empirical Exercises 4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 4/Theoretical Exercises 4/Theoretical Exercises 4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Lectures/03 Unit Roots and Cointegration/03C VAR Models.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.5 Tutorial/Exercise 3.5 Tutorial Q7.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 3/Theoretical Exercises 3B/01 Theoretical Exercise/Theoretical Exercises 3B.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 3/Theoretical Exercises 3B/02 Solution Guide/Theoretical Exercises 3B - Solution Guide.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Lectures/03 Unit Roots and Cointegration/03B Cointegration.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Projects/01 IKE/02 Papers/2017 QEH/2018.03 Empirical Analysis/2018.03 Empirical Analysis v2.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.5 Tutorial/Exercise 3.5 Tutorial Q6.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.5 Tutorial/Exercise 3.5 Tutorial Q5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.5 Tutorial/Exercise 3.5 Tutorial Q4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.5 Tutorial/Exercise 3.5 Tutorial Q3.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.5 Tutorial/Exercise 3.5 Tutorial Q2.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.4 Tutorial/Exercise 3.4 Tutorial Q8.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.5 Tutorial/Exercise 3.5 Tutorial Q1.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.4 Tutorial/Exercise 3.4 Tutorial Q7.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 3/Empirical Exercises 3B/Empirical Exercises 3B.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.4 Tutorial/Exercise 3.4 Tutorial Q6.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.4 Tutorial/Exercise 3.4 Tutorial Q5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.4 Tutorial/Exercise 3.4 Tutorial Q4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.4 Tutorial/Exercise 3.4 Tutorial Q3.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.4 Tutorial/Exercise 3.4 Tutorial Q2.tex",
+		"/C/Users/lsw807/Dropbox/Coding/D3/Play/DashingD3 Play/js/play.js",
+		"/C/Users/lsw807/Dropbox/Coding/D3/Play/DashingD3 Play/css/style.css",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.4 Tutorial/Exercise 3.4 Tutorial Q1.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/02 Teaching Portfolio/01 Teaching Portfolio/Chapters/MyTeaching.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/TLHE/Presentations/2018.03.21 TLHE on Evaluation/2018.03.22 TLHE on Evaluation.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Assignments/Assignment 3/02 Assignment/Assignment 3.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 3/Empirical Exercises 3A/01 Empirial Exercise/Empirical Exercises 3A.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 3/Empirical Exercises 3A/Empirical Exercises 3A.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 3/Empirical Exercises 3A/03 Solution Guide/Exercise 3.2 Tutorial/Exercise 3.2 Tutorial.tex",
+		"/C/Users/lsw807/Dropbox/Coding/Python/Courses/Learn Python 3 the Hard Way/Ex1/ex1.py",
+		"/C/Users/lsw807/Dropbox/Coding/Python/Courses/Learn Python 3 the Hard Way/Exercise 01/ex1.py",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 3/Theoretical Exercises 3/Theoretical Exercises 3A.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 3/Theoretical Exercises 3/Theoretical Exercises 3A - Solution Guide.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Lectures/03 Unit Roots and Cointegration/03A Non-stationarity and Unit Root Testing.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Evaluation/01 Midterm Evaluation/Midterm Evaluation.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assessment Criteria/Assessment Criteria.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 2/05 General Feedback/General Feedback on Assignment 2.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Lectures/preamble.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Theoretical Exercise 2 - Slides/Theoretical Exercise 2 - Slides.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Empirical Exercise 2/02 Tutorial/Exercise 2.4 Q5.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Empirical Exercise 2/02 Tutorial/Exercise 2.4 Q7.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Problem Set 3.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Fall 2017/Exercises/Problem Set 3/Exercise 3.1 Solution Guide/Exercise 3.1 Solution Guide.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Lectures/02 Dynamic Models/02 Dynamic Models for Stationary Time Series.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 3/Theoretical Exercises 3/Theoretical Exercises 3.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Lectures/02 Dynamic Models/ox/Eigenvalues and matrix powers/Eigenvalues.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Empirical Exercise 2/02 Tutorial/Exercise 2.4 Q6.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Empirical Exercise 2/02 Tutorial/Exercise 2.4 Q3.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Empirical Exercise 2/02 Tutorial/Exercise 2.4 Q4.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Empirical Exercise 2/01 Empirical Exercise/Empirical Exercise 2.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Empirical Exercise 2/02 Tutorial/Exercise 2.4 Q2.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Empirical Exercise 2/02 Tutorial/Exercise 2.4 Q1.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Assignment 1/05 General Feedback/General Feedback on Assignment 1.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Assignments/Peer Feedback/Peer Feedback - Why and How.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Exercises/Topic 2/Empirical Exercise 2/Empirical Exercise 2.tex",
+		"/C/Users/lsw807/Dropbox/Econ/Teaching/Econometrics C/Spring 2018/Lectures/01 Linear Regression Model/01B Linear Regression with Time Series Data.tex"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

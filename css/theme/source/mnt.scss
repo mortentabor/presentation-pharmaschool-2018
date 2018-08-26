@@ -1,0 +1,844 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #222;
+$headingColor: #000;
+
+$mainFontSize: inherit;
+//$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+//$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+$headingFont: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 600;
+$linkColor: #901a1e;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.0em;
+$heading2Size: 1.4em;
+$heading3Size: 1.2em;
+$heading4Size: 1.0em;
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+$slidePadding: 12vmin;
+$fontSize: 3.75vmin;
+$fontSizeSmall: 3.25vmin;
+
+$highlightColor: yellow;
+$highlightPadding: 0;
+
+html {
+	font-size: $fontSize;
+}
+
+// Grid
+.grid-wrapper {
+	display: grid;
+}
+
+.reveal .slides {
+	text-align: left;
+}
+
+.reveal .slides section {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+@mixin section ($margin: 0) {
+	@if ($margin == 0) {
+		height: 100vh;
+		margin: 0;
+		width: 100vw;
+	}
+	@else {
+		height: calc(100vh - #{2 * $margin});
+		margin: $margin;
+		width: calc(100vw - #{2* $margin});
+	}
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.reveal .slides span.highlight {
+    display: inline;
+    background: $highlightColor;
+    color: $mainColor; 
+    padding: $highlightPadding;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reveal .slides section {
+	@include section();
+
+	.grid-wrapper {
+		box-sizing: border-box;
+		grid-column-gap: $slidePadding;
+		grid-row-gap: $slidePadding/2;
+		grid-template-areas: "header" "content";
+		grid-template-rows: 1fr 1fr;
+		height: 100%;
+		padding: $slidePadding;
+	}
+
+	.gfx {
+		background-repeat: no-repeat;		
+		background-size: auto 100%;
+		display: inline-block;
+	}
+}
+
+
+.reveal .slides section.titleslide {
+
+	.grid-wrapper {
+		grid-template-areas: "." "title" "subtitle";
+		grid-template-rows: 2fr 3fr 3fr;
+		grid-template-columns: 1fr;
+	}
+
+	h1 {
+		grid-area: title;
+		justify-self: center;
+		align-self: center;
+		text-align: center;
+	}
+
+	.subtitle {
+		font-size: $fontSize;
+		grid-area: subtitle;
+		justify-self: stretch;
+		align-self: stretch;
+		text-align: center;
+		line-height: 1.5em;
+	}
+}
+
+.reveal .slides section.econometrics2 {
+
+	.grid-wrapper {
+		grid-template-areas: "content" "gfx";
+		grid-template-rows: 1fr 2fr;
+	}
+
+	.content {
+		grid-area: content;
+	}
+
+	.gfx {
+		grid-area: gfx;
+	}
+
+	.timeseries {
+		background-image: url("../../lib/media/timeseries.png");
+		background-position: right bottom;
+	}	
+}
+
+
+.reveal .slides section.restructure {
+
+	.grid-wrapper {
+		grid-template-areas: "gfx description" "header header";
+		grid-template-rows: 4fr 1fr;
+		grid-template-columns: 1fr 2fr;
+	}	
+
+	.description {
+		grid-area: description;
+	}
+
+	.gfx {
+		grid-area: gfx;
+	}
+
+	h2 {
+		grid-area: header;
+		justify-self: center;
+		align-self: end;
+		text-align: center;
+	}
+
+	.rideabike {
+		background-image: url("../../lib/media/rideabike.png");
+		background-position: left center;
+		padding-left: 4vmin;
+	}
+}
+
+
+.reveal .slides section.prepare {
+
+	.grid-wrapper {
+		grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+		grid-template-rows: 1fr 3fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}	
+
+	.lecturenotegfx {
+		grid-area: gfx1;
+		background-image: url("../../lib/media/lecturenote.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.videogfx {
+		grid-area: gfx2;
+		background-image: url("../../lib/media/video.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.reviewquizgfx {
+		grid-area: gfx3;
+		background-image: url("../../lib/media/reviewquiz.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.lecturenote {
+		grid-area: description1;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.video {
+		grid-area: description2;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.reviewquiz {
+		grid-area: description3;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	h2 {
+		grid-area: header;
+		text-align: center;
+	}
+}
+
+.reveal .slides section.prepare-video {
+
+	.grid-wrapper {
+		grid-template-areas: "video";
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr;
+	}	
+	.video {
+		grid-area: video;
+		align-self: stretch;
+		justify-self: stretch;
+		text-align: center;
+	}
+}
+
+.reveal .slides section.prepare-reviewquiz {
+
+	.grid-wrapper {
+		grid-template-areas: "gif";
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr;
+	}	
+	.reviewquizgif {
+		grid-area: gif;
+		background-image: url("../../lib/media/reviewquiz.gif");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+
+.reveal .slides section.lectures {
+
+	.grid-wrapper {
+		grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+		grid-template-rows: 1fr 3fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}	
+
+	.socrativegfx {
+		grid-area: gfx1;
+		background-image: url("../../lib/media/socrative.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.miniexercisegfx {
+		grid-area: gfx2;
+		background-image: url("../../lib/media/miniexercise.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.lecturegfx {
+		grid-area: gfx3;
+		background-image: url("../../lib/media/lecture.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.socrative {
+		grid-area: description1;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.miniexercise {
+		grid-area: description2;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.lecture {
+		grid-area: description3;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	h2 {
+		grid-area: header;
+		text-align: center;
+	}
+}
+
+
+.reveal .slides section.theoreticalexercises {
+
+	.grid-wrapper {
+		grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+		grid-template-rows: 1fr 3fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}	
+
+	.videogfx {
+		grid-area: gfx1;
+		background-image: url("../../lib/media/videoex.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.feedbackgfx {
+		grid-area: gfx2;
+		background-image: url("../../lib/media/feedback.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.solutiongfx {
+		grid-area: gfx3;
+		background-image: url("../../lib/media/solution.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.video {
+		grid-area: description1;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.feedback {
+		grid-area: description2;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.solution {
+		grid-area: description3;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	h2 {
+		grid-area: header;
+		justify-self: center;
+		align-self: start;
+		text-align: center;
+	}
+}
+
+
+.reveal .slides section.empiricalexercises {
+
+	.grid-wrapper {
+		grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+		grid-template-rows: 1fr 3fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}	
+
+	.videogfx {
+		grid-area: gfx1;
+		background-image: url("../../lib/media/screencast.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.tutorialgfx {
+		grid-area: gfx2;
+		background-image: url("../../lib/media/tutorial.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.feedbackgfx {
+		grid-area: gfx3;
+		background-image: url("../../lib/media/feedbackta.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.video {
+		grid-area: description1;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.tutorial {
+		grid-area: description2;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.feedback {
+		grid-area: description3;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	h2 {
+		grid-area: header;
+		text-align: center;
+	}
+}
+
+.reveal .slides section.empiricalexercise-video {
+
+	.grid-wrapper {
+		grid-template-areas: "video";
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr;
+	}	
+	.video {
+		grid-area: video;
+		align-self: stretch;
+		justify-self: stretch;
+		text-align: center;
+	}
+}
+
+.reveal .slides section.assignments {
+
+	.grid-wrapper {
+		grid-template-areas: "header" "gfx" "headerbottom";
+		grid-template-rows: 1fr 4fr 1fr;
+		grid-template-columns: 1fr;
+	}	
+
+	h2.headertop {
+		grid-area: header;
+		text-align: center;
+	}
+
+	.gfx {
+		grid-area: gfx;
+		background-image: url("../../lib/media/assignments.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	h2.headerbottom {
+		grid-area: headerbottom;
+		text-align: center;
+	}
+}
+
+.reveal .slides section.assignments2 {
+
+	.grid-wrapper {
+		grid-template-areas: "header" "gfx" "headerbottom";
+		grid-template-rows: 1fr 4fr 1fr;
+		grid-template-columns: 1fr;
+	}	
+
+	h2.headertop {
+		grid-area: header;
+		text-align: center;
+	}
+
+	.gfx {
+		grid-area: gfx;
+		background-image: url("../../lib/media/assignments2.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	h2.headerbottom {
+		grid-area: headerbottom;
+		text-align: center;
+	}
+}
+
+.reveal .slides section.peerfeedback {
+
+	.grid-wrapper {
+		grid-template-areas: "gfx" "headerbottom";
+		grid-template-rows: 4fr 1fr;
+		grid-template-columns: 1fr;
+	}	
+
+	.gfx {
+		grid-area: gfx;
+		background-image: url("../../lib/media/peerfeedback.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	h2.headerbottom {
+		grid-area: headerbottom;
+		text-align: center;
+	}
+}
+
+
+.reveal .slides section.assessmentcriteria {
+
+	.grid-wrapper {
+		grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+		grid-template-rows: 1fr 3fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	h2 {
+		grid-area: header;
+		text-align: center;
+	}	
+
+	.crit1gfx {
+		grid-area: gfx1;
+		background-image: url("../../lib/media/arrow.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.crit2gfx {
+		grid-area: gfx2;
+		background-image: url("../../lib/media/comments.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.crit3gfx {
+		grid-area: gfx3;
+		background-image: url("../../lib/media/generalfeedback.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.crit1 {
+		grid-area: description1;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.crit2 {
+		grid-area: description2;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.crit3 {
+		grid-area: description3;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+}
+
+.reveal .slides section.peergrade {
+
+	.grid-wrapper {
+		grid-template-areas: "gfxtop gfxtop gfxtop" "gfx1 gfx2 gfx3" "description1 description2 description3";
+		grid-template-rows: 2fr 2fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.gfxtop {
+		grid-area: gfxtop;
+		background-image: url("../../lib/media/peergrade.png");
+		background-position: top center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.crit1gfx {
+		grid-area: gfx1;
+		background-image: url("../../lib/media/peerfeedback1.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.crit2gfx {
+		grid-area: gfx2;
+		background-image: url("../../lib/media/peerfeedback2.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.crit3gfx {
+		grid-area: gfx3;
+		background-image: url("../../lib/media/peerfeedback3.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.crit1 {
+		grid-area: description1;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.crit2 {
+		grid-area: description2;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.crit3 {
+		grid-area: description3;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+}
+
+.reveal .slides section.receivefeedback {
+
+	.grid-wrapper {
+		grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+		grid-template-rows: 1fr 3fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	h2 {
+		grid-area: header;
+		justify-self: center;
+		align-self: stretch;
+		text-align: center;
+	}	
+
+	.crit1gfx {
+		grid-area: gfx1;
+		background-image: url("../../lib/media/receivefeedback.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.crit2gfx {
+		grid-area: gfx2;
+		background-image: url("../../lib/media/receivefeedback2.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.crit3gfx {
+		grid-area: gfx3;
+		background-image: url("../../lib/media/receivefeedback3.png");
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.crit1 {
+		grid-area: description1;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.crit2 {
+		grid-area: description2;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.crit3 {
+		grid-area: description3;
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+}
+
+.reveal .slides section.whypeerfeedbackworks {
+
+	.grid-wrapper {
+		grid-template-areas: "header" "element1" "element2" "element3" "element4" "element5";
+		grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
+	}
+
+	h2 {
+		grid-area: header;
+		text-align: center;
+	}	
+
+	.element1, .element2, .element3, .element4, .element5 {
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.element1 {
+		grid-area: element1;
+	}
+	.element2 {
+		grid-area: element2;
+	}
+	.element3 {
+		grid-area: element3;
+	}
+	.element4 {
+		grid-area: element4;
+	}
+	.element5 {
+		grid-area: element5;
+	}
+}
+
+.reveal .slides section.achievements {
+
+	.grid-wrapper {
+		grid-template-areas: "header" "element1" "element2" "element3" "element4" "element5" "element6";
+		grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
+	}
+
+	h2 {
+		grid-area: header;
+		text-align: center;
+	}	
+
+	.element1, .element2, .element3, .element4, .element5, .element6 {
+		font-size: $fontSizeSmall;
+		text-align: center;
+	}
+
+	.element1 {
+		grid-area: element1;
+	}
+	.element2 {
+		grid-area: element2;
+	}
+	.element3 {
+		grid-area: element3;
+	}
+	.element4 {
+		grid-area: element4;
+	}
+	.element5 {
+		grid-area: element5;
+	}
+	.element6 {
+		grid-area: element6;
+	}
+}
+
+.reveal .slides section.thanks {
+
+	.grid-wrapper {
+		grid-template-areas: "." "header" "subtitle";
+		grid-template-rows: 1fr 2fr 1fr;
+		grid-template-columns: 1fr;
+	}
+
+	h2 {
+		grid-area: header;
+		justify-self: center;
+		align-self: stretch;
+		text-align: center;
+		align-item: center;
+	}	
+
+	.subtitle {
+		grid-area: subtitle;
+		text-align: center;
+	}
+}

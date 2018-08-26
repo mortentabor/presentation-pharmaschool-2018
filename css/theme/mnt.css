@@ -1,0 +1,851 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+  color: #fff; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #fff;
+  background-color: #fff; }
+
+.reveal {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  font-size: inherit;
+  font-weight: normal;
+  color: #222; }
+
+::selection {
+  color: #fff;
+  background: #df4b50;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #fff;
+  background: #df4b50;
+  text-shadow: none; }
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #000;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 2em; }
+
+.reveal h2 {
+  font-size: 1.4em; }
+
+.reveal h3 {
+  font-size: 1.2em; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+.reveal h1 {
+  text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+.reveal strong,
+.reveal b {
+  font-weight: bold; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+.reveal ol {
+  list-style-type: decimal; }
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  margin-left: 40px; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+.reveal code {
+  font-family: monospace;
+  text-transform: none; }
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal; }
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.reveal table th {
+  font-weight: bold; }
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+  text-align: center; }
+
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
+  text-align: right; }
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+  border-bottom: none; }
+
+.reveal sup {
+  vertical-align: super; }
+
+.reveal sub {
+  vertical-align: sub; }
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+.reveal small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #901a1e;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:hover {
+  color: #d1262c;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #4f0e11; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #222;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none; }
+
+.reveal a img {
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #901a1e;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  color: #901a1e; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #901a1e; }
+
+.reveal .progress span {
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+html {
+  font-size: 3.75vmin; }
+
+.grid-wrapper {
+  display: grid; }
+
+.reveal .slides {
+  text-align: left; }
+
+.reveal .slides section {
+  box-sizing: border-box;
+  padding: 0; }
+
+.right {
+  text-align: right; }
+
+.left {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+.reveal .slides span.highlight {
+  display: inline;
+  background: yellow;
+  color: #222;
+  padding: 0; }
+
+.reveal .slides section {
+  height: 100vh;
+  margin: 0;
+  width: 100vw; }
+  .reveal .slides section .grid-wrapper {
+    box-sizing: border-box;
+    grid-column-gap: 12vmin;
+    grid-row-gap: 6vmin;
+    grid-template-areas: "header" "content";
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    padding: 12vmin; }
+  .reveal .slides section .gfx {
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    display: inline-block; }
+
+.reveal .slides section.titleslide .grid-wrapper {
+  grid-template-areas: "." "title" "subtitle";
+  grid-template-rows: 2fr 3fr 3fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.titleslide h1 {
+  grid-area: title;
+  justify-self: center;
+  align-self: center;
+  text-align: center; }
+
+.reveal .slides section.titleslide .subtitle {
+  font-size: 3.75vmin;
+  grid-area: subtitle;
+  justify-self: stretch;
+  align-self: stretch;
+  text-align: center;
+  line-height: 1.5em; }
+
+.reveal .slides section.econometrics2 .grid-wrapper {
+  grid-template-areas: "content" "gfx";
+  grid-template-rows: 1fr 2fr; }
+
+.reveal .slides section.econometrics2 .content {
+  grid-area: content; }
+
+.reveal .slides section.econometrics2 .gfx {
+  grid-area: gfx; }
+
+.reveal .slides section.econometrics2 .timeseries {
+  background-image: url("../../lib/media/timeseries.png");
+  background-position: right bottom; }
+
+.reveal .slides section.restructure .grid-wrapper {
+  grid-template-areas: "gfx description" "header header";
+  grid-template-rows: 4fr 1fr;
+  grid-template-columns: 1fr 2fr; }
+
+.reveal .slides section.restructure .description {
+  grid-area: description; }
+
+.reveal .slides section.restructure .gfx {
+  grid-area: gfx; }
+
+.reveal .slides section.restructure h2 {
+  grid-area: header;
+  justify-self: center;
+  align-self: end;
+  text-align: center; }
+
+.reveal .slides section.restructure .rideabike {
+  background-image: url("../../lib/media/rideabike.png");
+  background-position: left center;
+  padding-left: 4vmin; }
+
+.reveal .slides section.prepare .grid-wrapper {
+  grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.reveal .slides section.prepare .lecturenotegfx {
+  grid-area: gfx1;
+  background-image: url("../../lib/media/lecturenote.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.prepare .videogfx {
+  grid-area: gfx2;
+  background-image: url("../../lib/media/video.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.prepare .reviewquizgfx {
+  grid-area: gfx3;
+  background-image: url("../../lib/media/reviewquiz.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.prepare .lecturenote {
+  grid-area: description1;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.prepare .video {
+  grid-area: description2;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.prepare .reviewquiz {
+  grid-area: description3;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.prepare h2 {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.prepare-video .grid-wrapper {
+  grid-template-areas: "video";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.prepare-video .video {
+  grid-area: video;
+  align-self: stretch;
+  justify-self: stretch;
+  text-align: center; }
+
+.reveal .slides section.prepare-reviewquiz .grid-wrapper {
+  grid-template-areas: "gif";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.prepare-reviewquiz .reviewquizgif {
+  grid-area: gif;
+  background-image: url("../../lib/media/reviewquiz.gif");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.lectures .grid-wrapper {
+  grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.reveal .slides section.lectures .socrativegfx {
+  grid-area: gfx1;
+  background-image: url("../../lib/media/socrative.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.lectures .miniexercisegfx {
+  grid-area: gfx2;
+  background-image: url("../../lib/media/miniexercise.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.lectures .lecturegfx {
+  grid-area: gfx3;
+  background-image: url("../../lib/media/lecture.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.lectures .socrative {
+  grid-area: description1;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.lectures .miniexercise {
+  grid-area: description2;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.lectures .lecture {
+  grid-area: description3;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.lectures h2 {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.theoreticalexercises .grid-wrapper {
+  grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.reveal .slides section.theoreticalexercises .videogfx {
+  grid-area: gfx1;
+  background-image: url("../../lib/media/videoex.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.theoreticalexercises .feedbackgfx {
+  grid-area: gfx2;
+  background-image: url("../../lib/media/feedback.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.theoreticalexercises .solutiongfx {
+  grid-area: gfx3;
+  background-image: url("../../lib/media/solution.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.theoreticalexercises .video {
+  grid-area: description1;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.theoreticalexercises .feedback {
+  grid-area: description2;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.theoreticalexercises .solution {
+  grid-area: description3;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.theoreticalexercises h2 {
+  grid-area: header;
+  justify-self: center;
+  align-self: start;
+  text-align: center; }
+
+.reveal .slides section.empiricalexercises .grid-wrapper {
+  grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.reveal .slides section.empiricalexercises .videogfx {
+  grid-area: gfx1;
+  background-image: url("../../lib/media/screencast.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.empiricalexercises .tutorialgfx {
+  grid-area: gfx2;
+  background-image: url("../../lib/media/tutorial.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.empiricalexercises .feedbackgfx {
+  grid-area: gfx3;
+  background-image: url("../../lib/media/feedbackta.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.empiricalexercises .video {
+  grid-area: description1;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.empiricalexercises .tutorial {
+  grid-area: description2;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.empiricalexercises .feedback {
+  grid-area: description3;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.empiricalexercises h2 {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.empiricalexercise-video .grid-wrapper {
+  grid-template-areas: "video";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.empiricalexercise-video .video {
+  grid-area: video;
+  align-self: stretch;
+  justify-self: stretch;
+  text-align: center; }
+
+.reveal .slides section.assignments .grid-wrapper {
+  grid-template-areas: "header" "gfx" "headerbottom";
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.assignments h2.headertop {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.assignments .gfx {
+  grid-area: gfx;
+  background-image: url("../../lib/media/assignments.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.assignments h2.headerbottom {
+  grid-area: headerbottom;
+  text-align: center; }
+
+.reveal .slides section.assignments2 .grid-wrapper {
+  grid-template-areas: "header" "gfx" "headerbottom";
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.assignments2 h2.headertop {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.assignments2 .gfx {
+  grid-area: gfx;
+  background-image: url("../../lib/media/assignments2.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.assignments2 h2.headerbottom {
+  grid-area: headerbottom;
+  text-align: center; }
+
+.reveal .slides section.peerfeedback .grid-wrapper {
+  grid-template-areas: "gfx" "headerbottom";
+  grid-template-rows: 4fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.peerfeedback .gfx {
+  grid-area: gfx;
+  background-image: url("../../lib/media/peerfeedback.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.peerfeedback h2.headerbottom {
+  grid-area: headerbottom;
+  text-align: center; }
+
+.reveal .slides section.assessmentcriteria .grid-wrapper {
+  grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.reveal .slides section.assessmentcriteria h2 {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.assessmentcriteria .crit1gfx {
+  grid-area: gfx1;
+  background-image: url("../../lib/media/arrow.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.assessmentcriteria .crit2gfx {
+  grid-area: gfx2;
+  background-image: url("../../lib/media/comments.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.assessmentcriteria .crit3gfx {
+  grid-area: gfx3;
+  background-image: url("../../lib/media/generalfeedback.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.assessmentcriteria .crit1 {
+  grid-area: description1;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.assessmentcriteria .crit2 {
+  grid-area: description2;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.assessmentcriteria .crit3 {
+  grid-area: description3;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.peergrade .grid-wrapper {
+  grid-template-areas: "gfxtop gfxtop gfxtop" "gfx1 gfx2 gfx3" "description1 description2 description3";
+  grid-template-rows: 2fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.reveal .slides section.peergrade .gfxtop {
+  grid-area: gfxtop;
+  background-image: url("../../lib/media/peergrade.png");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.peergrade .crit1gfx {
+  grid-area: gfx1;
+  background-image: url("../../lib/media/peerfeedback1.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.peergrade .crit2gfx {
+  grid-area: gfx2;
+  background-image: url("../../lib/media/peerfeedback2.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.peergrade .crit3gfx {
+  grid-area: gfx3;
+  background-image: url("../../lib/media/peerfeedback3.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.peergrade .crit1 {
+  grid-area: description1;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.peergrade .crit2 {
+  grid-area: description2;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.peergrade .crit3 {
+  grid-area: description3;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.receivefeedback .grid-wrapper {
+  grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.reveal .slides section.receivefeedback h2 {
+  grid-area: header;
+  justify-self: center;
+  align-self: stretch;
+  text-align: center; }
+
+.reveal .slides section.receivefeedback .crit1gfx {
+  grid-area: gfx1;
+  background-image: url("../../lib/media/receivefeedback.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.receivefeedback .crit2gfx {
+  grid-area: gfx2;
+  background-image: url("../../lib/media/receivefeedback2.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.receivefeedback .crit3gfx {
+  grid-area: gfx3;
+  background-image: url("../../lib/media/receivefeedback3.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.receivefeedback .crit1 {
+  grid-area: description1;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.receivefeedback .crit2 {
+  grid-area: description2;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.receivefeedback .crit3 {
+  grid-area: description3;
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.whypeerfeedbackworks .grid-wrapper {
+  grid-template-areas: "header" "element1" "element2" "element3" "element4" "element5";
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.whypeerfeedbackworks h2 {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.whypeerfeedbackworks .element1, .reveal .slides section.whypeerfeedbackworks .element2, .reveal .slides section.whypeerfeedbackworks .element3, .reveal .slides section.whypeerfeedbackworks .element4, .reveal .slides section.whypeerfeedbackworks .element5 {
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.whypeerfeedbackworks .element1 {
+  grid-area: element1; }
+
+.reveal .slides section.whypeerfeedbackworks .element2 {
+  grid-area: element2; }
+
+.reveal .slides section.whypeerfeedbackworks .element3 {
+  grid-area: element3; }
+
+.reveal .slides section.whypeerfeedbackworks .element4 {
+  grid-area: element4; }
+
+.reveal .slides section.whypeerfeedbackworks .element5 {
+  grid-area: element5; }
+
+.reveal .slides section.achievements .grid-wrapper {
+  grid-template-areas: "header" "element1" "element2" "element3" "element4" "element5" "element6";
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.achievements h2 {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.achievements .element1, .reveal .slides section.achievements .element2, .reveal .slides section.achievements .element3, .reveal .slides section.achievements .element4, .reveal .slides section.achievements .element5, .reveal .slides section.achievements .element6 {
+  font-size: 3.25vmin;
+  text-align: center; }
+
+.reveal .slides section.achievements .element1 {
+  grid-area: element1; }
+
+.reveal .slides section.achievements .element2 {
+  grid-area: element2; }
+
+.reveal .slides section.achievements .element3 {
+  grid-area: element3; }
+
+.reveal .slides section.achievements .element4 {
+  grid-area: element4; }
+
+.reveal .slides section.achievements .element5 {
+  grid-area: element5; }
+
+.reveal .slides section.achievements .element6 {
+  grid-area: element6; }
+
+.reveal .slides section.thanks .grid-wrapper {
+  grid-template-areas: "." "header" "subtitle";
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.thanks h2 {
+  grid-area: header;
+  justify-self: center;
+  align-self: stretch;
+  text-align: center;
+  align-item: center; }
+
+.reveal .slides section.thanks .subtitle {
+  grid-area: subtitle;
+  text-align: center; }
