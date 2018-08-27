@@ -370,7 +370,7 @@ html {
 
 .reveal .slides section.herbertsimonquote .description {
   grid-area: description;
-  font-size: 5vmin;
+  font-size: 4.25vmin;
   align-self: center;
 }
 
