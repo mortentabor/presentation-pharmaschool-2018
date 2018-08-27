@@ -363,6 +363,18 @@ html {
   background-position: left center;
   padding-left: 4vmin; }
 
+.reveal .slides section.herbertsimonquote .grid-wrapper {
+  grid-template-areas: "description" "fillitem";
+  grid-template-rows: 1fr;
+  grid-template-columns: 3fr 1fr;}
+
+.reveal .slides section.herbertsimonquote .description {
+  grid-area: description;
+  font-size: 5vmin;
+  align-self: center;
+}
+
+
 .reveal .slides section.prepare .grid-wrapper {
   grid-template-areas: "header header header" "gfx1 gfx2 gfx3" "description1 description2 description3";
   grid-template-rows: 1fr 3fr 1fr;
